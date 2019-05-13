@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>cap-ecs-demo</h2>
-                <p>Php application version:1.0.2 deployed on ecs fargate.</p>
+                <p>Php application version:1.0.3 deployed on ecs fargate.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
